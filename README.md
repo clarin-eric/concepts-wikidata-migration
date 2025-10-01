@@ -11,7 +11,7 @@ the Concept Registry itself.
 
 ## Background
 
-The CLARIN Concept Registry has been populated with terms that are created by individual researchers or projects. This organic growth has led to inconsitency and duplication. In order to solve this problem, the TF-CLARIN team started in June 2024 a project to map the CCR concepts to Wikidata terms.
+The CCR has been populated with terms created by or adopted from individual researchers or projects. Over the years we have identified internal issues such as inconsitency and duplication, and governance has proven to be difficult. In order to solve these problem, the CLARIN Technical Centres committee and the CMDI task force started in 2024 a project to map the CCR concepts to Wikidata entities.
 
 For this purpose, we used semi-automatic mappings based on string matching to wikidata items or properties. The semi-automatic matching resulted in a series of candidate mappings. These went through several rounds of manual validations, not only by the team members, but also involvind different collaborators within CLARIN. In the final stage before releasing v1.1, a round of manual evaluation to a sample of items was included, after which the final selection of mappings was made and integrated in the VLO.
 
