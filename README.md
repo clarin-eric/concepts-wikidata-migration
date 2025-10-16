@@ -29,7 +29,21 @@ This is an overview of the results offered in v1.1 (see below) include:
 - From those 3079, 933 concepts are actually used (by individuals or projects).
 - Mappings to wikidata were found for 693 concepts, out of which 404 are used concepts.
 
-The file "CCR-concepts-to-wikidata-v1-1_complete_metadata_with_provenance.csv" includes more detailed metadata and provenance information (i.e., indicating if the mapping originates from manual validation, manual inputation, or an automatic matching via an ISOCAT Id).
+Some observations about the non-matched concepts:
+
+- The concepts for which there was no mapping found are:
+  - 529 are used concepts (most of them seem to be concepts referring to properties, probably assigned as concept links during the creation of a profile in the component registry, not to linguistic terms) 
+    - from clarin: 84 
+    - from nalida: 78 
+    - from tei: 30 
+    - from clarin-d: 20
+  - 1857 are not used
+
+Files:
+- The file "CCR-concepts-to-wikidata-v1-1_complete_metadata_with_provenance.csv" includes more detailed metadata and provenance information (i.e., indicating if the mapping originates from manual validation, manual inputation, or an automatic matching via an ISOCAT Id).
+- The file "[CCR-Wikdata_complete_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikdata_complete_v1.1.csv)" contains all the aggregated metadata for the 3.079 CCR concepts, plus the mappings (for the 933 concepts), the provenance of these mappings, and the toDos for the next version.
+
+
   
 ### v1.0 (September 2025)
 
