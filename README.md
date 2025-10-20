@@ -31,13 +31,13 @@ This is an overview of the results offered in v1.1 (see below) include:
 
 Some observations about the non-matched concepts:
 
-- The concepts for which there was no mapping found are in [this file](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR_Wikdata_no_mappings_v1.1.csv):
-  - 529 are used concepts (most of them seem to be concepts referring to properties, probably assigned as concept links to elements or components during the creation of a profile in the component registry (not to the value vocabularies) 
+- There are 529 used concepts for which there was no mapping, they are in [this file](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR_Wikdata_no_mappings_v1.1.csv):
+  - Observation: most of them seem to be concepts referring to properties, probably assigned as concept links to elements or components during the creation of a profile in the component registry (not to the value vocabularies) 
     - from clarin: 84 
     - from nalida: 78 
     - from tei: 30 
     - from clarin-d: 20
-  - 1857 are not used
+- There are 1857 non used concepts for which there was no mapping found (but these were not included in all the mapping rounds, thus, it is possible but they have a mapping, but we decided not to look for it since they are not used in the Virtual Language Observatory)
 
 Files:
 - The file "CCR-concepts-to-wikidata-v1-1_complete_metadata_with_provenance.csv" includes more detailed metadata and provenance information (i.e., indicating if the mapping originates from manual validation, manual inputation, or an automatic matching via an ISOCAT Id).
