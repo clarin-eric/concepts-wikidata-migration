@@ -31,7 +31,7 @@ This is an overview of the results offered in v1.1 (see below) include:
 
 Some observations about the non-matched concepts:
 
-- The concepts for which there was no mapping found are:
+- The concepts for which there was no mapping found are in [this file](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR_Wikdata_no_mappings_v1.1.csv):
   - 529 are used concepts (most of them seem to be concepts referring to properties, probably assigned as concept links to elements or components during the creation of a profile in the component registry (not to the value vocabularies) 
     - from clarin: 84 
     - from nalida: 78 
