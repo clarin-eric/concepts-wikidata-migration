@@ -21,10 +21,11 @@ For this purpose, we used semi-automatic mappings based on string matching to wi
 ### v1.1 (September 2025)
 
 #### Files
-- "[CCR-Wikdata_complete_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikdata_complete_v1.1.csv)" contains all the aggregated metadata for the 3.079 CCR concepts, plus the mappings (for the 933 concepts), the provenance of these mappings, and the toDos for the next version.
-- "[CCR-Wikdata_mappings_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikdata_mappings_v1.1.csv)" a two-column file that contains only the 693 used concepts that have a mapping, and the wikidata URI.
-- "[CCR-concepts-to-wikidata-v1-1_complete_metadata_with_provenance.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikdata_mappings_v1.1_complete_metadata_and_provenance.csv)" includes the 933 concepts with mappings, with more detailed metadata and provenance information (i.e., indicating if the mapping originates from manual validation, manual inputation, or an automatic matching via an ISOCAT Id).
-- "[CCR_Wikdata_no_mappings_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR_Wikdata_no_mappings_v1.1.csv)" contains the 529 concepts for which a mapping was not found (all metadata is included).
+- "[CCR-Wikdata_complete_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikidata_complete_v1.1.csv)" contains all the aggregated metadata for the 3.079 CCR concepts, plus the mappings (for the 933 concepts), the provenance of these mappings, and the toDos for the next version.
+- "[CCR-Wikdata_mappings_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikidata_mappings_v1.1.csv)" a two-column file that contains only the 693 used concepts that have a mapping, and the wikidata URI.
+- "[CCR-concepts-to-wikidata-v1-1_complete_metadata_with_provenance.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikidata_mappings_v1.1_complete_metadata_and_provenance.csv)" includes the 933 concepts with mappings, with more detailed metadata and provenance information (i.e., indicating if the mapping originates from manual validation, manual inputation, or an automatic matching via an ISOCAT Id).
+- "[CCR-Wikidata_no_mappings_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikidata_no_mappings_v1.1.csv)" contains the 529 concepts for which a mapping was not found (all metadata is included).
+- "[CCR-Wikidata_not_mapped_concepts_list_v1.1.txt](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikidata_not_mapped_concepts_list_v1.1.txt)" plain list with the non-mapped 529 concepts, labels only (no extra metadata)
 - "[Working-notes.txt](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/working-notes.txt)" document with some observations and notes.
 
 
