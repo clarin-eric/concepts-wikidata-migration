@@ -1,0 +1,11 @@
+# Notes about the non-mapped concepts (version 1.1):
+
+
+From Liliana: Some observations about the non-matched concepts:
+- There are 529 used concepts for which there was no mapping, they are in [this file](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR_Wikdata_no_mappings_v1.1.csv):
+  - Observation: most of them seem to be concepts referring to properties, probably assigned as concept links to elements or components during the creation of a profile in the component registry (not to the value vocabularies)
+    - from clarin: 84
+    - from nalida: 78
+    - from tei: 30
+    - from clarin-d: 20
+- There are 1857 non used concepts for which there was no mapping found (but these were not included in all the mapping rounds, thus, it is possible but they have a mapping, but we decided not to look for it since they are not used in the Virtual Language Observatory)
