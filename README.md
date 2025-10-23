@@ -25,7 +25,7 @@ For this purpose, we used semi-automatic mappings based on string matching to wi
 - "[CCR-Wikdata_mappings_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikdata_mappings_v1.1.csv)" a two-column file that contains only the 693 used concepts that have a mapping, and the wikidata URI.
 - "[CCR-concepts-to-wikidata-v1-1_complete_metadata_with_provenance.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikdata_mappings_v1.1_complete_metadata_and_provenance.csv)" includes the 933 concepts with mappings, with more detailed metadata and provenance information (i.e., indicating if the mapping originates from manual validation, manual inputation, or an automatic matching via an ISOCAT Id).
 - "[CCR_Wikdata_no_mappings_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR_Wikdata_no_mappings_v1.1.csv)" contains the 529 concepts for which a mapping was not found (all metadata is included).
-- Working notes
+- "[Working-notes.txt](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/working-notes.txt)" document with some observations and notes.
 
 
 #### Statistics
