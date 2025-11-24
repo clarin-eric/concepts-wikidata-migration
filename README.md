@@ -10,43 +10,41 @@ specifically the [Component Registry](https://catalog.clarin.eu/ds/ComponentRegi
 the Concept Registry itself.
 
 ## Background
-
 The CCR has been populated with terms created by or adopted from individual researchers or projects. Over the years we have identified internal issues such as inconsitency and duplication, and governance has proven to be difficult. In order to solve these problem, the CLARIN Technical Centres committee and the CMDI task force started in 2024 a project to map the CCR concepts to Wikidata entities.
-
 For this purpose, we used semi-automatic mappings based on string matching to wikidata items or properties. The semi-automatic matching resulted in a series of candidate mappings. These went through several rounds of manual validations, not only by the team members, but also involvind different collaborators within CLARIN. In the final stage before releasing v1.1, a round of manual evaluation to a sample of items was included, after which the final selection of mappings was made and integrated in the VLO.
-
 
 ## Version history
 
+### v1.2 (November/December 2025)
+#### Files v1.2
+- "[CCR_Wikidata-complete-toDo-v1.2.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/v1.2/CCR_Wikidata-complete-toDo-v1.2.csv)" contains all the aggregated metadata for the 3.079 CCR concepts, plus the mappings (for the 933 concepts), the provenance of these mappings, some suggested mapping candidates to evaluate, and the toDos for the next version.
+  - This file contains all the metadata, provenance and mappings from version 1.1 plus columns with ToDos for the next round:
+    - column: toDo_20251124 -> describes what needs to be done
+    - column: toDo_WHO -> assigns it to a person, there are two types: mandatory and optional
+    - column: status_202511-latest-round -> to be filled in during the toDos
+
 ### v1.1 (September 2025)
+#### Files v1.1
+- "[CCR-Wikdata_complete_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/v1.1/CCR-Wikidata_complete_v1.1.csv)" contains all the aggregated metadata for the 3.079 CCR concepts, plus the mappings (for the 933 concepts), the provenance of these mappings, and the toDos for the next version.
+- "[CCR-Wikdata_mappings_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/v1.1/CCR-Wikidata_mappings_v1.1.csv)" a two-column file that contains only the 693 used concepts that have a mapping, and the wikidata URI.
+- "[CCR-concepts-to-wikidata-v1-1_complete_metadata_with_provenance.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/v1.1/CCR-Wikidata_mappings_v1.1_complete_metadata_and_provenance.csv)" includes the 933 concepts with mappings, with more detailed metadata and provenance information (i.e., indicating if the mapping originates from manual validation, manual inputation, or an automatic matching via an ISOCAT Id).
+- "[CCR-Wikidata_no_mappings_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/v1.1/CCR-Wikidata_no_mappings_v1.1.csv)" contains the 529 concepts for which a mapping was not found (all metadata is included).
+- "[CCR-Wikidata_not_mapped_concepts_list_v1.1.txt](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/v1.1/CCR-Wikidata_not_mapped_concepts_list_v1.1.txt)" plain list with the non-mapped 529 concepts, labels only (no extra metadata)
+- "[Working-notes.txt](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/v1.1/working-notes.txt)" document with some observations and notes.
 
-#### Files
-- "[CCR-Wikdata_complete_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikidata_complete_v1.1.csv)" contains all the aggregated metadata for the 3.079 CCR concepts, plus the mappings (for the 933 concepts), the provenance of these mappings, and the toDos for the next version.
-- "[CCR-Wikdata_mappings_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikidata_mappings_v1.1.csv)" a two-column file that contains only the 693 used concepts that have a mapping, and the wikidata URI.
-- "[CCR-concepts-to-wikidata-v1-1_complete_metadata_with_provenance.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikidata_mappings_v1.1_complete_metadata_and_provenance.csv)" includes the 933 concepts with mappings, with more detailed metadata and provenance information (i.e., indicating if the mapping originates from manual validation, manual inputation, or an automatic matching via an ISOCAT Id).
-- "[CCR-Wikidata_no_mappings_v1.1.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikidata_no_mappings_v1.1.csv)" contains the 529 concepts for which a mapping was not found (all metadata is included).
-- "[CCR-Wikidata_not_mapped_concepts_list_v1.1.txt](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/CCR-Wikidata_not_mapped_concepts_list_v1.1.txt)" plain list with the non-mapped 529 concepts, labels only (no extra metadata)
-- "[Working-notes.txt](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/working-notes.txt)" document with some observations and notes.
-
-
-#### Statistics
+#### Statistics v1.1
 This is an overview of the results offered in v1.1 (see below) include:
-
 - We started with 3079 CCR concepts.
 - From those 3079, 933 concepts are actually used (by individuals or projects).
 - Mappings to wikidata were found for 693 concepts, out of which 404 are used concepts.
-
 Thus:
 * 693 verified mappings
 * Applied to the Component Registry and VLO on 26 September 2025
 
-  
 ### v1.0 (September 2025)
-
 Unpublished, not applied
 
 ## Contributors
-
 - Alexander König (CLARIN ERIC)
 - Dieter Van Uytvanck (CLARIN ERIC)
 - Liliana Melgar (KNAW HuC)
@@ -54,5 +52,4 @@ Unpublished, not applied
 - Twan Goosen (CLARIN ERIC)
 
 ## Contact
-
 E-mail: [cmdi@clarin.eu](cmdi@clarin.eu)
