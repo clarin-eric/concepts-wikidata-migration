@@ -59,6 +59,10 @@ Thus:
 - 740 verified mappings
 - Applied to the Component Registry and VLO on ....
 
+## More information
+- Forum post: https://forum.clarin.eu/t/wikidata-replaces-the-clarin-concept-registry-in-the-component-registry/1205
+- Updated documentation: https://www.clarin.eu/content/component-registry-documentation#ConceptLinks 
+
 ## Contributors
 - Alexander König (CLARIN ERIC)
 - Dieter Van Uytvanck (CLARIN ERIC)
