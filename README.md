@@ -11,9 +11,16 @@ the Concept Registry itself.
 
 ## Background
 The CCR has been populated with terms created by or adopted from individual researchers or projects. Over the years we have identified internal issues such as inconsitency and duplication, and governance has proven to be difficult. In order to solve these problem, the CLARIN Technical Centres committee and the CMDI task force started in 2024 a project to map the CCR concepts to Wikidata entities.
-For this purpose, we used semi-automatic mappings based on string matching to wikidata items or properties. The semi-automatic matching resulted in a series of candidate mappings. These went through several rounds of manual validations, not only by the team members, but also involvind different collaborators within CLARIN. In the final stage before releasing v1.1, a round of manual evaluation to a sample of items was included, after which the final selection of mappings was made and integrated in the VLO.
+For this purpose, we used semi-automatic mappings based on string matching to wikidata items or properties. The semi-automatic matching resulted in a series of candidate mappings. These went through several rounds of manual validations, not only by the team members, but also involving different collaborators within CLARIN. In the final stage before releasing v1.1, a round of manual evaluation to a sample of items was included, after which the final selection of mappings was made and integrated in the VLO.
 
 ## Version history
+### v1.3 (February 2, 2026)
+- In this version the team did a last round of mappings checking the concepts that had non-confirmed mapping candidates.
+- As a result, we mapped manually 47 more concepts to wikidata URis.
+#### Files v1.3
+- "[CCR_Wikidata-result-new-mappings-20260202.csv](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/v1.3/CCR_Wikidata-result-new-mappings-20260202.csv)" contains the resulting mappings done in this round (aggregated from the team members contributions via the internally shared Google spreadsheet: "CCR_Wikidata-complete-toDo-v1.2-20251211")
+- "[CCR-Wikidata-complete-done-v1.3.csv]()" contains all the metadata, provenance and mappings from all the versions up to 1.3.
+  - columns: "status_20260202-latest-round" and "toDo_20260202" -> include the final status until this point. Since no more mapping rounds are planned, these two columns show the final status of the mappings (see the updated statistics below).
 
 ### v1.2 (November/December 2025)
 #### Files v1.2
@@ -32,7 +39,10 @@ For this purpose, we used semi-automatic mappings based on string matching to wi
 - "[CCR-Wikidata_not_mapped_concepts_list_v1.1.txt](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/v1.1/CCR-Wikidata_not_mapped_concepts_list_v1.1.txt)" plain list with the non-mapped 529 concepts, labels only (no extra metadata)
 - "[Working-notes.txt](https://github.com/clarin-eric/concepts-wikidata-migration/blob/main/v1.1/working-notes.txt)" document with some observations and notes.
 
-#### Statistics v1.1
+### v1.0 (September 2025)
+Unpublished, not applied
+
+## Statistics v1.1
 This is an overview of the results offered in v1.1 (see below) include:
 - We started with 3079 CCR concepts.
 - From those 3079, 933 concepts are actually used (by individuals or projects).
@@ -41,8 +51,13 @@ Thus:
 * 693 verified mappings
 * Applied to the Component Registry and VLO on 26 September 2025
 
-### v1.0 (September 2025)
-Unpublished, not applied
+## Statistics v1.3 (final)
+- We started with 3079 CCR concepts.
+- From those 3079, 933 concepts are actually used (by individual or projects). These are the so-called "used concepts"
+- Mappings to wikidata were found for 740 concepts, out of which 451 are used concepts.
+Thus:
+- 740 verified mappings
+- Applied to the Component Registry and VLO on ....
 
 ## Contributors
 - Alexander König (CLARIN ERIC)
