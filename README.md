@@ -7,7 +7,10 @@ in the [CLARIN Concept Registry](https://concepts.clarin.eu/ccr/) (CCR) to
 The mapping is intended to be applied to the CLARIN metadata infrastructure,
 specifically the [Component Registry](https://catalog.clarin.eu/ds/ComponentRegistry/),
 [Virtual Language Observatory](https://vlo.clarin.eu) (VLO), and as annotations to
-the Concept Registry itself.
+the Concept Registry itself. For this purpsose, there are two projects that automate the conversion
+from a tabular mapping to 
+* an updated VLO configuration ([vlo-wikidata-migration](https://github.com/clarin-eric/vlo-wikidata-migration))
+* or update statements for the Component Registry database ([compreg-wikidata-migration](https://github.com/clarin-eric/compreg-wikidata-migration))
 
 ## Background
 The CCR has been populated with terms created by or adopted from individual researchers or projects. Over the years we have identified internal issues such as inconsitency and duplication, and governance has proven to be difficult. In order to solve these problem, the CLARIN Technical Centres committee and the CMDI task force started in 2024 a project to map the CCR concepts to Wikidata entities.
