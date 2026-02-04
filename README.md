@@ -60,7 +60,7 @@ Thus:
 - Mappings to wikidata were found for 740 concepts, out of which 451 are used concepts.
 Thus:
 - 740 verified mappings
-- Applied to the Component Registry and VLO on ....
+- Applied to the Component Registry and VLO on 4 February 2026
 
 ## More information
 - Forum post: https://forum.clarin.eu/t/wikidata-replaces-the-clarin-concept-registry-in-the-component-registry/1205
